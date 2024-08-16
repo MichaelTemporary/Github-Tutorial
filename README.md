@@ -1,2 +1,2 @@
 # Tes
-Ini tutorial Git and GitHub
+Ini tutorial Git and GitHub.
