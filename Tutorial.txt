@@ -1,0 +1,30 @@
+Git: Version Control: Di awal bisa save initial version code, lalu jika ada perubahan bisa di save di Git itu.
+1.  Terms:
+    + Directory: Folder
+    + Terminal/command line: command prompt
+    + CLI: Command Line Interface: aplikasi command prompt: cara untuk run sebuah program secara lebih cepat
+    + CD: Change Directory
+    + Code editor: VSCode
+    + Repository: Folder/place dimana project mu disimpan
+    + Bedanya Git dan GitHub: Git itu semacam tools untuk bisa track codemu setiap ada perubahan, 
+      sedangkan GitHub itu website untuk melihat semua repository Git dan bisa digunakan kolaborasi dengan teman karena berbasis online
+2.  Git commands: ditulis di command prompt
+    + clone: misal ada repository di github dan belum tersimpan di devicemu, pakai command ini untuk masukin ke local files devicemu
+    + add: misal ada perubahan apapun dalam repositorymu, kamu ingin git bisa mengtrack perubahan ini (delete, update, create files)
+    + commit: save changes di code ke Git
+    + push: setelah add, commit, untuk memasukkan code ke aplikasi remote repository (GitHub), gunakan push
+    + pull: opposite of push, download perubahan/code baru di GitHub dan masukkan ke local files devicemu
+    + branch
+    + checkout : switching between branches
+    + status
+    + diff (branch name): show perbedaan antar branch
+    + reset: undo add
+
+Dengan adanya Github, step by step git: write code, commit, push
+
+    + remote: git remote add origin (diisi repository baru dan kosong yang dibuat di github), lalu git push
+3.  Git branching
+    Main branch: branch utama
+    Feature branch: jika pertama kali membuat, code akan sama dengan main branch, tetapi jika ada perubahan pada feature branch,
+                    perubahan ini tidak nampak di main
+    
